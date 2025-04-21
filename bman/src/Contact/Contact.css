@@ -1,0 +1,39 @@
+.contact{
+    /* height: 100dvh; */
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 40%;
+}
+
+.contact-form{
+    display: inline-grid;
+    gap: 5px;
+    
+}
+
+.input-field{
+    font-size: 18px;
+    width: 500px;
+    max-width: 100%;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: white;
+    color: black;
+}
+
+.contact-label{
+    font-size: 20px;
+}
+.message-box{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.submit-button{
+    padding-top: 10px;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 5px;
+    border-color: transparent;
+}

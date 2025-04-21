@@ -1,0 +1,42 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: #000080
+    ;
+}
+
+
+.copyright-section {
+    padding-left: 10px;
+  }
+  
+  .copyright-sentence {
+    font-size: 15px;
+  }
+  
+  .icons-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    height: 25px;
+    width: 65px;
+    color: white;
+  }
+
+  @media (max-width: 768px) {
+    .icons-section{
+        display: none;
+    }
+
+    .footer{
+      justify-content: center;
+    }
+}

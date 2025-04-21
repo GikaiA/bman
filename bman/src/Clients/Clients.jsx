@@ -2,7 +2,8 @@ import React from 'react'
 
 function Clients() {
   return (
-    <div>
+    <div className='clients'>
+      
       
     </div>
   )
