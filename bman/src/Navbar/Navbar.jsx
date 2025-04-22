@@ -15,7 +15,7 @@ function Navbar() {
       </div>
       <ul className={isOpen ? "nav-menu open" : "nav-menu"}>
         <li>
-          <a href="#projects" className="nav-item">Portfolio</a>
+          <a href="/portfolio" className="nav-item">Portfolio</a>
         </li>
         <li>
           <a href="/clients" className="nav-item">Clients</a>

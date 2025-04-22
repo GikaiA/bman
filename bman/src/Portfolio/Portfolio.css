@@ -1,0 +1,81 @@
+.portfolio {
+  background-color: #4b0092;
+  height: 100dvh;
+}
+
+.multimedia {
+  display: block;
+  /* padding-left: 240px; */
+}
+
+.multimedia-title {
+  display: flex;
+  color: white;
+  padding-left: 10px;
+}
+
+.sample-video {
+  width: 650px;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.editing-video {
+  width: 1000px;
+}
+
+.thumbnail-image {
+  width: 450px;
+  transition-duration: 0.5s;
+}
+
+.thumbnail-image:hover {
+  transform: scale(1.035);
+}
+
+.banner-section {
+  display: block;
+}
+
+.banner-image {
+  width: 580px;
+  transition-duration: 0.5s;
+}
+
+.banner-image:hover {
+  transform: scale(1.035);
+}
+
+.emote {
+  width: 300px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .multimedia-section {
+    padding-top: 20px;
+    height: 560vh;
+  }
+
+  .multimedia {
+    display: block;
+    padding-left: 0px; /* Adjust padding for smaller screens */
+  }
+
+  .sample-video,
+  .editing-video,
+  .thumbnail-image,
+  .banner-image,
+  .emote {
+    width: 100%; /* Make elements full width on smaller screens */
+  }
+
+  .multimedia-title {
+    display: block;
+  }
+}
