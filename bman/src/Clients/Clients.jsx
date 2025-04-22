@@ -1,7 +1,6 @@
 import React,{useState}  from 'react';
 import './Clients.css';
-import brooke from '../images/brooke-logo.png'
-;
+import brooke from '../images/brooke-logo.png';
 
 
 function Clients() {
