@@ -1,6 +1,5 @@
 .portfolio {
-  background-color: #4b0092;
-  height: 100dvh;
+  height: 145vh;
 }
 
 .multimedia {
@@ -12,11 +11,9 @@
   display: flex;
   color: white;
   padding-left: 10px;
+  font-family: 'Supreme';
 }
 
-.sample-video {
-  width: 650px;
-}
 
 .image-section {
   display: flex;
@@ -26,7 +23,9 @@
 }
 
 .editing-video {
-  width: 1000px;
+  display: flex;
+  justify-content: center;
+  width: 800px;
 }
 
 .thumbnail-image {
@@ -39,7 +38,11 @@
 }
 
 .banner-section {
-  display: block;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 10px;
 }
 
 .banner-image {
@@ -51,15 +54,19 @@
   transform: scale(1.035);
 }
 
+.emotes-section{
+  display: flex;
+  justify-content: center;
+  column-gap: 35px;
+}
 .emote {
   width: 300px;
 }
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
-  .multimedia-section {
-    padding-top: 20px;
-    height: 560vh;
+  .portfolio {
+    height: 325vh;
   }
 
   .multimedia {
@@ -76,6 +83,28 @@
   }
 
   .multimedia-title {
-    display: block;
+    display: flex;
+    justify-self: center;
+    font-family: 'Supreme';
   }
+
+  .emotes-section{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+  }
+
+  .emote{
+    width: 150px;
+    height: 100%;
+  }
+
+}
+
+
+@font-face {
+  font-family: 'Supreme';
+  src: local('Supreme'), url(../fonts/Supreme-Regular.woff) format('woff');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
 }

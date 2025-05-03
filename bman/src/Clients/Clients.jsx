@@ -1,6 +1,7 @@
 import React,{useState}  from 'react';
 import './Clients.css';
 import brooke from '../images/brooke-logo.png';
+import tibackground from '../images/ti-background.jpg'
 
 
 function Clients() {
@@ -10,6 +11,7 @@ function Clients() {
       name: "Client A",
       description: "This is client A's description.",
       image: brooke,
+      background: tibackground
     },
     {
       id: 2,
@@ -42,7 +44,9 @@ function Clients() {
     <div className="client-container">
       <div className={`client-content ${fade ? "fade-in" : "fade-out"}`}>
         <img src={client.image} alt={client.name} className='client-image' />
+
         <p>{client.description}</p>
+        <img src={client.background} className='background-image'/>
       </div>
       <button onClick={handleNext}>Next</button>
     </div>
