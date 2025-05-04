@@ -1,39 +1,67 @@
-.contact{
-    /* height: 100dvh; */
-    position: absolute;
-    text-align: center;
-    top: 40%;
-    left: 40%;
+.contact {
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 100%;
+  font-family: "Supreme";
 }
 
-.contact-form{
-    display: inline-grid;
-    gap: 5px;
-    
+.contact-bg-wrapper {
+  overflow: hidden;
+  position: relative;
+  background-color: black;
 }
 
-.input-field{
-    font-size: 18px;
-    width: 500px;
-    max-width: 100%;
-    border-radius: 5px;
-    border-color: transparent;
-    background-color: white;
-    color: black;
+.contact-bg {
+  width: 100%;
+  min-height: 100%;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0.8;
 }
 
-.contact-label{
-    font-size: 20px;
-}
-.message-box{
-    font-size: 18px;
-    padding-bottom: 10px;
+.contact-form {
+  display: inline-grid;
+  gap: 5px;
 }
 
-.submit-button{
-    padding-top: 10px;
-    font-size: 15px;
-    background-color: black;
-    border-radius: 5px;
-    border-color: transparent;
+.input-field {
+  width: 400px;
+  font-size: 18px;
+  max-width: 100%;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: white;
+  color: black;
+}
+
+.contact-label {
+  font-size: 20px;
+}
+.message-box {
+  font-size: 18px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+.submit-button {
+  padding: 10px 10px;
+  font-size: px;
+  background-color: #000080;
+  border-radius: 5px;
+  border-color: transparent;
+  color: white;
+  font-family: "Supreme";
+}
+
+@font-face {
+  font-family: "Supreme";
+  src: local("Supreme"), url(../fonts/Supreme-Regular.woff) format("woff");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
 }

@@ -1,8 +1,10 @@
-client-section{
-  height: 560vh;
+.client-section{
+  height: 140vh;
 }
 
 .client-title{
+  display: flex;
+  justify-content: center;
   color: white;
   font-size: 50px;
   font-family: 'Supreme';
@@ -12,6 +14,7 @@ client-section{
 
 .testimonial{
   display: block;
+  text-align: center;
   font-family: 'Supreme';
   color: white;
 }
@@ -88,7 +91,8 @@ client-section{
   }
   .testimonial-image,
   .zuno-testimonial-image {
-      width: 100%; /* Make images full width on smaller screens */
+      width: 250px; /* Make images full width on smaller screens */
+      max-width: 100%;
   }
 
   .creator-vid {

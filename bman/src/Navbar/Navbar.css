@@ -12,6 +12,7 @@
   .main-logo{
     width: 70px;
     padding-top: 5px;
+    animation: spin 2s linear infinite;
   }
   
   .logo-link {
@@ -79,7 +80,7 @@
   }
   
   .menu-toggle {
-    font-size: 1.8rem;
+    font-size: 2rem;
     cursor: pointer;
     display: none;
   
@@ -87,6 +88,15 @@
   
   .close-menu {
     display: none;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
   
   @font-face {
