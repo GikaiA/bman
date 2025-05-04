@@ -1,45 +1,138 @@
-.client-container {
-    text-align: center;
-    padding: 20px;
-    margin: 0 auto;
+client-section{
+  height: 560vh;
+}
+
+.client-title{
+  color: white;
+  font-size: 50px;
+  font-family: 'Supreme';
+  margin: 0;
+}
+
+
+.testimonial{
+  display: block;
+  font-family: 'Supreme';
+  color: white;
+}
+
+.testimonial-image{
+  width: 300px;
+}
+
+.zuno-testimonial-image{
+  width: 500px;
+  padding-top: 20px;
+}
+
+.client-icon{
+  width: 40px;
+  height: 100px; 
+  margin-right: 25px;
+  margin-left: 20px;
+}
+
+.creator-name{
+  font-size: 35px;
+}
+
+.ti-testimonial-sentence{
+  float: right;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.testimonial-sentence{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  font-size: 19px;
+}
+
+.queen-testimonial-sentence{
+  display: block;
+  padding-left: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+
+}
+.video-section{
+  display: flex;
+  justify-content: center;
+  padding-left: 150px;
+}
+
+.shortform-content{
+  display: flex;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.creator-vid{
+  width: 630px;
+}
+
+
+.shortform-video{
+  width: 300px;
+}
+
+@media (max-width: 768px) {
+
+  .video-section{
+      display: block;
+      padding-left: 0;
   }
-  
-  .client-content {
-    transition: opacity 0.3s ease-in-out;
-    margin-bottom: 20px;
-  }
-  
-  .fade-in {
-    opacity: 1;
-  }
-  
-  .fade-out {
-    opacity: 0;
-  }
-  
-  .client-image {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 10px;
+  .testimonial-image,
+  .zuno-testimonial-image {
+      width: 100%; /* Make images full width on smaller screens */
   }
 
-  .background-image{
-    width: 1100px;
-    height: 100%;
+  .creator-vid {
+      max-width: 100%; /* Make videos fit the width of the container on smaller screens */
+      height: auto; /* Ensure aspect ratio is maintained */
   }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #444;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
+
+  .shortform-video {
+      width: 100%; /* Make shortform videos full width on smaller screens */
   }
-  
-  button:hover {
-    background-color: #666;
+
+  .client-icon {
+      margin-right: 15px; /* Adjust margin for smaller screens */
+      margin-left: 10px; /* Adjust margin for smaller screens */
+      width: 30px; /* Adjust width for smaller screens */
+      height: 80px; /* Adjust height for smaller screens */
   }
-  
+
+  .client-title {
+      font-size: 40px; /* Adjust font size for smaller screens */
+  }
+
+  .creator-name {
+      font-size: 30px; /* Adjust font size for smaller screens */
+  }
+
+  .testimonial-sentence,
+  .queen-testimonial-sentence {
+      font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .shortform-content{
+      display: block;
+      padding-left: 0;
+  }
+
+  .client-section{
+      height: 560vh;
+      padding-top: 95px;
+  }
+}
+
+@font-face {
+  font-family: "Supreme";
+  src: local("Supreme"),
+    url(/bman/src/fonts/Supreme-Regular.woff) format("woff");
+}
