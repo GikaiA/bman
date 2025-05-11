@@ -1,5 +1,6 @@
 .portfolio {
   height: 145vh;
+  max-height: fit-content;
 }
 
 .multimedia {
@@ -26,6 +27,8 @@
   display: flex;
   justify-content: center;
   width: 800px;
+  max-width: 100%;
+  column-gap: 10px;
 }
 
 .thumbnail-image {
@@ -60,7 +63,8 @@
   column-gap: 35px;
 }
 .emote {
-  width: 300px;
+  width: 200px;
+  max-width: fit-content;
 }
 
 /* Media query for mobile devices */
