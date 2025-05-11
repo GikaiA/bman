@@ -23,7 +23,7 @@
   right: 0;
   top: 0;
   z-index: -1;
-  opacity: 0.9;
+  opacity: 0.7;
 }
 
 .heading-section {
@@ -34,13 +34,13 @@
 }
 
 .heading-title {
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .portfolio-paragraph {
   display: flex;
   justify-content: center;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 
